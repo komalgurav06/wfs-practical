@@ -11,6 +11,10 @@ This repository is maintained to organize practical work systematically and to k
 ```text
 wfs-practical/
 │
+├── car-crud/
+│   ├── connect.php
+│   └── index.php
+│
 ├── cookie/
 │   ├── login.php
 │   └── view.php
@@ -19,6 +23,10 @@ wfs-practical/
 │   ├── file.php
 │   └── uploads/
 │       └── File_upload_download.pdf
+│
+├── form/
+│   ├── student.php
+│   └── valid.php
 │
 └── session/
     ├── login.php
@@ -29,6 +37,23 @@ wfs-practical/
 ---
 
 ## 📚 Practicals
+
+### 🚗 Car CRUD
+
+**Folder:** `car-crud/`
+
+**Files:**
+- `connect.php`
+- `index.php`
+
+**Concepts Practiced:**
+- Connecting PHP with MySQL
+- Creating database connections
+- Performing CRUD operations
+- Creating, reading, updating and deleting records
+- Working with PHP and MySQL
+
+---
 
 ### 🍪 Cookie Management
 
@@ -66,6 +91,23 @@ wfs-practical/
 
 ---
 
+### 📝 Form Validation
+
+**Folder:** `form/`
+
+**Files:**
+- `student.php`
+- `valid.php`
+
+**Concepts Practiced:**
+- Creating HTML forms
+- Accepting user input
+- Form validation using PHP
+- Validating form data
+- Handling form submission
+
+---
+
 ### 🔐 Session Management
 
 **Folder:** `session/`
@@ -92,6 +134,7 @@ wfs-practical/
 * HTML
 * CSS
 * JavaScript
+* MySQL
 * XAMPP
 * Apache
 
@@ -126,9 +169,16 @@ http://localhost/wfs/file/
 ```
 
 ```text
+http://localhost/wfs/form/
+```
+
+```text
 http://localhost/wfs/session/
 ```
 
+```text
+http://localhost/wfs/car-crud/
+```
 ---
 
 ## 🎯 Purpose
