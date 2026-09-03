@@ -28,6 +28,14 @@ wfs-practical/
 │   ├── student.php
 │   └── valid.php
 │
+├── functions/
+│   ├── array_function.php
+│   ├── array_sorting_function.php
+│   ├── date_function.php
+│   ├── math_function.php
+│   ├── string_function.php
+│   └── user_define_function.php
+│
 └── session/
     ├── login.php
     ├── session-login.php
@@ -108,6 +116,28 @@ wfs-practical/
 
 ---
 
+### 🔧 PHP Functions
+
+**Folder:** `functions/`
+
+**Files:**
+- `array_function.php`
+- `array_sorting_function.php`
+- `date_function.php`
+- `math_function.php`
+- `string_function.php`
+- `user_define_function.php`
+
+**Concepts Practiced:**
+- PHP array functions
+- Array sorting functions
+- Date and time functions
+- Mathematical functions
+- String functions
+- User-defined functions
+
+---
+
 ### 🔐 Session Management
 
 **Folder:** `session/`
@@ -170,6 +200,10 @@ http://localhost/wfs/file/
 
 ```text
 http://localhost/wfs/form/
+```
+
+```text
+http://localhost/wfs/functions/
 ```
 
 ```text
